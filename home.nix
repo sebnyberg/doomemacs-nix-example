@@ -4,6 +4,8 @@
   home.username = "seb";
   home.homeDirectory = "/Users/seb";
   home.stateVersion = "23.11";
+  programs.home-manager.enable = true;
+  programs.zsh.enable = true;
 
   home.packages = [
     # Indexing / search dependencies
@@ -34,8 +36,6 @@
   };
   home.sessionPath = [ "${config.xdg.configHome}/emacs/bin" ];
 
-  programs.home-manager.enable = true;
-  programs.zsh.enable = true;
   programs.emacs.enable = true;
   programs.emacs.package = pkgs.emacs29;
 
