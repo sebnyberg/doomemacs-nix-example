@@ -193,7 +193,7 @@ brevity.
     (pkgs.ripgrep.override {withPCRE2 = true;})
 
     # Font / icon config
-    # Added FiraCode as an example, it's not used in the config example.
+    # Added FiraCode as an example, it's not used in config.el.
     pkgs.emacs-all-the-icons-fonts
     pkgs.fontconfig
     (pkgs.nerdfonts.override {fonts = [ "FiraCode" ];})
