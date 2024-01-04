@@ -7,11 +7,6 @@ Example of Doom Emacs + Nix Flakes + Home Manager.
 As part of moving my home configuration to Nix, I spent some time getting Doom
 Emacs to work.
 
-The current state of using Doom Emacs and Nix is not great. In order to provide
-an easy-to-use, stable and platform-agnostic experience, Doom manages packages
-on behalf of its users. Naturally, this means that Doom has to perform mutable
-changes, which is very *un-nix-ey* (nix is all about immutable artifacts).
-
 There is a community project that aims to simplify Doom in Nix at
 [nix-community/nix-doom-emacs](https://github.com/nix-community/nix-doom-emacs),
 but as of writing (early 2024), it has been broken for more than a year.
