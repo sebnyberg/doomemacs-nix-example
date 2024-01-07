@@ -4,9 +4,6 @@ Example of Doom Emacs + Nix Flakes + Home Manager.
 
 ## Background
 
-As part of moving my home configuration to Nix, I spent some time getting Doom
-Emacs to work.
-
 There is a community project that aims to simplify Doom in Nix at
 [nix-community/nix-doom-emacs](https://github.com/nix-community/nix-doom-emacs),
 but as of writing (early 2024), it has been broken for more than a year.
