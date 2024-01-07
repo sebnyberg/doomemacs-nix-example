@@ -27,7 +27,7 @@ plenty more dotfile repo examples that use this approach.
 
 ## Doom's installation process
 
-Steps to install / update Doom:
+In order to set up Doom for Nix, it's good to understand how Doom is normally installed:
 
 1. Install Emacs
 2. Download Doom to `~/.config/emacs` (used to be `~/.emacs.d`)
@@ -44,7 +44,7 @@ The synchronization additionally initializes a profile at
 location of both these locations will be symlinked nix-store targets that are
 read-only, causing Doom installation and sync to fail.
 
-### Installation pseudo-outline
+### Installation with Nix
 
 Set the following environment variables:
 
@@ -64,7 +64,7 @@ Then, using Nix:
 
 - Install Emacs
 - Download Doom Emacs to `$EMACSDIR`
-- Symlink your personal Doom configuration to `$DOOMDIR`
+- Symlink personal Doom configuration to `$DOOMDIR`
 
 Then drop into a Nix shell with the environment variables above available, and
 run `doom install` + `doom sync`. Due to `$DOOMLOCALDIR` and
