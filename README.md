@@ -16,7 +16,7 @@ For example, `hlissner`, the creator of Doom,
 but does not sync or install Doom as part of his Nix configuration. There are
 plenty more dotfile repo examples that use this approach.
 
-## How Doom is installed
+## Doom's installation process
 
 Steps to install / update Doom:
 
