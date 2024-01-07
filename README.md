@@ -2,6 +2,15 @@
 
 Example of Doom Emacs + Nix Flakes + Home Manager.
 
+## How to use
+
+* Copy over relevant sections of the flake / home.nix to your own setup.
+* Replace `./doom/` contents with your config
+* Run `home-manager switch --flake .`
+* Restart the terminal or `source ~/.nix-profile/etc/profile.d/hm-session-vars.sh`
+* Ensure that `$DOOMDIR` etc. pont to the right location, then run `doom install`
+* Continuously run `home-manager switch --flake` and `doom sync` when your environment changes
+
 ## Background
 
 There is a community project that aims to simplify Doom in Nix at
